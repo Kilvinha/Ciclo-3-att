@@ -1,0 +1,20 @@
+peso=float(input("seu peso é:"))
+altura=float(input("sua altura é:"))
+def calculo imc(peso,altura):
+    imc=peso/(altura*altura)
+    if imc < 17:
+       print = "muito abaixo do peso"
+    elif imc < 18.49: 
+       print = "abaixo do peso"
+    elif imc < 24.99:
+       print = "peso normal"
+    elif imc <29.99:
+       print = "acima do peso"
+    elif imc <34.99:
+       print = "obesidade1"
+    elif imc <39.99:
+       print = "obesidade 2 severa"
+    else:
+       print = "obesidade 3 morbida"
+    return  calculo imc   
+
